@@ -3,117 +3,117 @@
 ## 🏠 Main Menu
 
 <p align="center">
-<img src="screenshots/mainmenu.png" width="900" alt="Main Menu">
+<img src="mainmenu.png" width="900" alt="Main Menu">
 </p>
 
-The main interface provides access to all banking operations.
+The main interface provides users with access to all banking operations through a simple and user-friendly console menu.
 
 ---
 
 ## ➕ Create Account
 
 <p align="center">
-<img src="screenshots/create_account.png" width="900" alt="Create Account">
+<img src="create_account.png" width="900" alt="Create Account">
 </p>
 
-Create a new customer account by entering the required banking details.
+Allows users to create a new bank account by entering customer details such as name, account number, phone number, initial balance, and PIN.
 
 ---
 
 ## ✅ Account Created Successfully
 
 <p align="center">
-<img src="screenshots/account_cretaed.png" width="900" alt="Account Created">
+<img src="account_cretaed.png" width="900" alt="Account Created">
 </p>
 
-Displays the successful creation of a new customer account.
+Displays a confirmation message after successfully creating a new customer account and securely storing the information.
 
 ---
 
 ## 💰 Deposit Money
 
 <p align="center">
-<img src="screenshots/deposit_money.png" width="900" alt="Deposit Money">
+<img src="deposit_money.png" width="900" alt="Deposit Money">
 </p>
 
-Deposit funds into an existing account and automatically update the account balance.
+Enables users to deposit money into an existing account while automatically updating the account balance and transaction records.
 
 ---
 
 ## 💸 Withdraw Money
 
 <p align="center">
-<img src="screenshots/withdraw_money.png" width="900" alt="Withdraw Money">
+<img src="withdraw_money.png" width="900" alt="Withdraw Money">
 </p>
 
-Withdraw funds securely after successful authentication.
+Allows secure withdrawal of funds after successful account verification and updates the remaining account balance.
 
 ---
 
 ## 🔐 Change PIN
 
 <p align="center">
-<img src="screenshots/change_pin.png" width="900" alt="Change PIN">
+<img src="change_pin.png" width="900" alt="Change PIN">
 </p>
 
-Allows users to securely change their account PIN.
+Provides a secure option for customers to change their account PIN, improving account security.
 
 ---
 
 ## 🗑 Delete Account
 
 <p align="center">
-<img src="screenshots/Delete_account.png" width="900" alt="Delete Account">
+<img src="Delete_account.png" width="900" alt="Delete Account">
 </p>
 
-Administrator can permanently remove customer accounts.
+Allows the administrator to permanently delete customer accounts while maintaining the integrity of the banking records.
 
 ---
 
 ## 🔓 Unlock Account
 
 <p align="center">
-<img src="screenshots/unlock_account.png" width="900" alt="Unlock Account">
+<img src="unlock_account.png" width="900" alt="Unlock Account">
 </p>
 
-Unlocks customer accounts after multiple failed login attempts.
+Enables the administrator to unlock customer accounts that were locked due to multiple incorrect PIN attempts.
 
 ---
 
 ## 👨‍💼 Admin Dashboard
 
 <p align="center">
-<img src="screenshots/admin.png" width="900" alt="Admin Dashboard">
+<img src="admin.png" width="900" alt="Admin Dashboard">
 </p>
 
-Administrative panel for managing accounts and banking operations.
+Administrative dashboard providing complete control over account management, customer records, security features, and system operations.
 
 ---
 
 ## 📋 Activity Log
 
 <p align="center">
-<img src="screenshots/Activity.png" width="900" alt="Activity Log">
+<img src="Activity.png" width="900" alt="Activity Log">
 </p>
 
-Displays transaction history and activity logs maintained by the system.
+Displays detailed logs of all banking activities, including account creation, deposits, withdrawals, transfers, and administrative operations.
 
 ---
 
-## 📊 Export CSV
+## 📊 Export Customer Data (CSV)
 
 <p align="center">
-<img src="screenshots/export_csv.png" width="900" alt="Export CSV">
+<img src="export_csv.png" width="900" alt="Export CSV">
 </p>
 
-Exports customer account details into CSV format for reporting and backup.
+Exports customer account information into CSV format, making it easy to analyze or open the data in spreadsheet applications such as Microsoft Excel.
 
 ---
 
 ## 📲 Telegram Notification
 
 <p align="center">
-<img src="screenshots/telegram_notification.png" width="450" alt="Telegram Notification">
+<img src="telegram_notification.png" width="450" alt="Telegram Notification">
 </p>
 
-Real-time transaction notifications are automatically sent to Telegram using the Telegram Bot API integrated through **libcurl**.
+The system automatically sends real-time Telegram notifications for important banking operations such as account creation, deposits, withdrawals, fund transfers, PIN changes, and administrative actions using the **Telegram Bot API** integrated through **libcurl**. This feature enhances transaction transparency, provides instant user updates, and improves the overall security of the banking system.
