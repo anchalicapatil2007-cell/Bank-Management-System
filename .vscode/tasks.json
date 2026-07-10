@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build banking",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "banking1.c",
+                "-I",
+                "C:/C_project/curl-8.20.0_2-win64-mingw/include",
+                "-L",
+                "C:/C_project/curl-8.20.0_2-win64-mingw/lib",
+                "-o",
+                "banking1.exe",
+                "-lcurl"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
