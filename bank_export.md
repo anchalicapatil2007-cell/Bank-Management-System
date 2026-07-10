@@ -1,8 +1,8 @@
 # BankSys - Account Export
 
-> **Exported on:** 27/05/2026 08:26:19  
-> **Total active accounts:** 5  
-> **Total funds:** Rs. 13579.00
+> **Exported on:** 10/07/2026 17:57:32  
+> **Total active accounts:** 8  
+> **Total funds:** Rs. 18459.00
 
 ---
 
@@ -13,10 +13,13 @@
 | 1234 | anchalica patil | 9359065936 | Current | 234.00 | Active | 21/05/2026 00:50:48 | 1 |
 | 123 | anchalica | 9359065936 | Savings | 1345.00 | Active | 21/05/2026 13:41:07 | 1 |
 | 9999 | saloni | 9359065936 | Savings | 12000.00 | Active | 21/05/2026 13:43:18 | 1 |
+| 333 | anchalica shital patil | 1111111111 | Savings | 1880.00 | Active | 10/07/2026 16:25:34 | 3 |
+| 222 | anushka patil | 1111122222 | Savings | 2000.00 | Active | 10/07/2026 16:44:56 | 1 |
+| 444 | saloni | 3333333333 | Savings | 1000.00 | Active | 10/07/2026 17:57:08 | 1 |
 
 ---
 
-| | **TOTAL** | | | **13579.00** | | | **5** |
+| | **TOTAL** | | | **18459.00** | | | **8** |
 
 ---
 

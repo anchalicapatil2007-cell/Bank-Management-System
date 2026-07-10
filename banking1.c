@@ -76,8 +76,8 @@
    Replace YOUR_BOT_TOKEN with your actual bot token from BotFather
    Replace YOUR_CHAT_ID  with your actual chat ID from @userinfobot
    ============================================================ */
-#define TELEGRAM_BOT_TOKEN  "8691927942:AAHMGoymWTwTpTh51crWPXIZ-gFzPHNFsos"
-#define TELEGRAM_CHAT_ID    "8610531573"
+#define TELEGRAM_BOT_TOKEN  "YOUR_BOT_TOKEN"
+#define TELEGRAM_CHAT_ID    "YOUR_CHAT_ID"
 
 /* ============================================================
    CONSTANTS
