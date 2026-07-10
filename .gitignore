@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+curl-8.20.0_2-win64-mingw/
+tempCodeRunnerFile.c
+*.exe
+*.log
