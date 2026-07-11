@@ -1,119 +1,20 @@
-# 📸 Project Screenshots
+# 📸 Application Screenshots
 
-## 🏠 Main Menu
+The following screenshots demonstrate the key functionalities of the **Advanced Bank Management System**, including customer account management, secure banking operations, administrative controls, transaction logging, data export, and real-time Telegram notifications.
 
-<p align="center">
-<img src="mainmenu.png" width="900" alt="Main Menu">
-</p>
+| Feature | Preview |
+|---------|---------|
+| **🏠 Main Menu**<br>The central dashboard providing access to account creation, login, fund transfer, admin operations, CSV export, activity logs, and account recovery features. | <img src="mainmenu.png" width="500"> |
+| **👤 Create Account**<br>Create a new customer account by entering account details, account type, initial deposit, and a secure 4-digit PIN. | <img src="create_account.png" width="500"> |
+| **✅ Account Created**<br>Displays the successful creation of a customer account while securely storing account information and sending a Telegram notification. | <img src="account_created.png" width="500"> |
+| **💰 Deposit Money**<br>Deposit funds into an account with automatic balance updates, transaction receipt generation, activity logging, and Telegram notification. | <img src="deposit_money.png" width="500"> |
+| **💸 Withdraw Money**<br>Secure withdrawal process with balance verification, receipt generation, activity logging, and instant Telegram alerts. | <img src="withdraw_money.png" width="500"> |
+| **🔐 Change PIN**<br>Allows authenticated users to securely update their account PIN while notifying the customer via Telegram. | <img src="change_pin.png" width="500"> |
+| **🗑️ Delete Account**<br>Administrator confirmation screen for permanently deleting customer accounts from the banking database. | <img src="Delete_account.png" width="500"> |
+| **👨‍💼 Admin View**<br>Displays all customer accounts along with account statistics, balances, account types, and bank summary for administrators. | <img src="Admin_view.png" width="500"> |
+| **📋 Activity Log**<br>Shows a complete audit trail of account creation, deposits, withdrawals, transfers, PIN changes, exports, and administrative operations. | <img src="Activity.png" width="500"> |
+| **📊 Export CSV**<br>Exports customer account information to CSV and Markdown formats for reporting, backup, and Microsoft Excel compatibility. | <img src="export_csv.png" width="500"> |
+| **📲 Telegram Notification**<br>Real-time transaction alerts sent through the Telegram Bot API using **libcurl**, improving customer awareness and transaction security. | <img src="telegram_notification.png" width="250"> |
+| **🔓 Unlock Account**<br>Allows administrators to unlock accounts that were temporarily locked after multiple incorrect PIN attempts. | <img src="unlock_account.png" width="500"> |
 
-The main interface provides users with access to all banking operations through a simple and user-friendly console menu.
-
----
-
-## ➕ Create Account
-
-<p align="center">
-<img src="create_account.png" width="900" alt="Create Account">
-</p>
-
-Allows users to create a new bank account by entering customer details such as name, account number, phone number, initial balance, and PIN.
-
----
-
-## ✅ Account Created Successfully
-
-<p align="center">
-<img src="account_cretaed.png" width="900" alt="Account Created">
-</p>
-
-Displays a confirmation message after successfully creating a new customer account and securely storing the information.
-
----
-
-## 💰 Deposit Money
-
-<p align="center">
-<img src="deposit_money.png" width="900" alt="Deposit Money">
-</p>
-
-Enables users to deposit money into an existing account while automatically updating the account balance and transaction records.
-
----
-
-## 💸 Withdraw Money
-
-<p align="center">
-<img src="withdraw_money.png" width="900" alt="Withdraw Money">
-</p>
-
-Allows secure withdrawal of funds after successful account verification and updates the remaining account balance.
-
----
-
-## 🔐 Change PIN
-
-<p align="center">
-<img src="change_pin.png" width="900" alt="Change PIN">
-</p>
-
-Provides a secure option for customers to change their account PIN, improving account security.
-
----
-
-## 🗑 Delete Account
-
-<p align="center">
-<img src="Delete_account.png" width="900" alt="Delete Account">
-</p>
-
-Allows the administrator to permanently delete customer accounts while maintaining the integrity of the banking records.
-
----
-
-## 🔓 Unlock Account
-
-<p align="center">
-<img src="unlock_account.png" width="900" alt="Unlock Account">
-</p>
-
-Enables the administrator to unlock customer accounts that were locked due to multiple incorrect PIN attempts.
-
----
-
-## 👨‍💼 Admin Dashboard
-
-<p align="center">
-<img src="admin.png" width="900" alt="Admin Dashboard">
-</p>
-
-Administrative dashboard providing complete control over account management, customer records, security features, and system operations.
-
----
-
-## 📋 Activity Log
-
-<p align="center">
-<img src="Activity.png" width="900" alt="Activity Log">
-</p>
-
-Displays detailed logs of all banking activities, including account creation, deposits, withdrawals, transfers, and administrative operations.
-
----
-
-## 📊 Export Customer Data (CSV)
-
-<p align="center">
-<img src="export_csv.png" width="900" alt="Export CSV">
-</p>
-
-Exports customer account information into CSV format, making it easy to analyze or open the data in spreadsheet applications such as Microsoft Excel.
-
----
-
-## 📲 Telegram Notification
-
-<p align="center">
-<img src="telegram_notification.png" width="450" alt="Telegram Notification">
-</p>
-
-The system automatically sends real-time Telegram notifications for important banking operations such as account creation, deposits, withdrawals, fund transfers, PIN changes, and administrative actions using the **Telegram Bot API** integrated through **libcurl**. This feature enhances transaction transparency, provides instant user updates, and improves the overall security of the banking system.
+> **Note:** The project integrates **File Handling**, **PIN Authentication**, **Transaction Management**, **CSV & Markdown Export**, **Activity Logging**, and **Telegram Bot API (via libcurl)** to simulate a secure and feature-rich banking environment using the C programming language.
